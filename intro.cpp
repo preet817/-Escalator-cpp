@@ -164,30 +164,30 @@
  // q5
 
 
-#include <iostream>
-using namespace std;
+// #include <iostream>
+// using namespace std;
 
-#define MAX 5
+// #define MAX 5
 
-int stack[MAX];
-int top = MAX - 1;  
+// int stack[MAX];
+// int top = MAX - 1;  
 
 
-bool isFull() {
-    if (top == MAX - 1)
-        return true;
-    else
-        return false;
-}
+// bool isFull() {
+//     if (top == MAX - 1)
+//         return true;
+//     else
+//         return false;
+// }
 
-int main() {
-    if (isFull()) {
-        cout << "Stack is full." << endl;
-    } else {
-        cout << "Stack is not full." << endl;
-    }
+// int main() {
+//     if (isFull()) {
+//         cout << "Stack is full." << endl;
+//     } else {
+//         cout << "Stack is not full." << endl;
+//     }
 
-    return 0;
-}
+//     return 0;
+// }
 
 
